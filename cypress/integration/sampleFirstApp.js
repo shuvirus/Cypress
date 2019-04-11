@@ -7,7 +7,5 @@ describe('Visit the application',function(){
     it('we get visited',function(){
         cy.visit("http://demowebshop.tricentis.com/") 
         cy.contains("Register").click();
-        var shell = WScript.CreateObject("WScript.Shell");
-        shell.Run("command here");
     })
 })
