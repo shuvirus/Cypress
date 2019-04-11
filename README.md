@@ -1,2 +1,2 @@
 # QA-Repo
-Contains all QA projects
+Cypress QA project
