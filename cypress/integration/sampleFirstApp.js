@@ -5,7 +5,7 @@ describe('My First Test', function() {
   })
 describe('Visit the application',function(){
     it('we get visited',function(){
-        cy.visit("http://demowebshop.tricentis.com/") 
+        cy.visit("https://172.20.162.24:8443/identityiq/home.jsf") 
         cy.contains("Register").click();
     })
 })
